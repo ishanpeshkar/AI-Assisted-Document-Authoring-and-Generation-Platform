@@ -1,0 +1,43 @@
+Prerequisites: 
+Ensure you have Python 3.8+, Node.js 16+, and a Google Gemini API Key.
+
+
+Backend Setup & Run:
+
+Open a terminal in the root directory (OceanAI Task).
+
+First time only:
+bash
+cd backend
+python -m venv venv
+.\venv\Scripts\activate
+pip install -r requirements.txt
+# Create .env file with SECRET_KEY and GEMINI_API_KEY
+
+
+
+
+To run the backend (every time):
+bash
+# From the root directory "OceanAI Task"
+.\backend\venv\Scripts\uvicorn backend.main:app --reload
+
+The backend runs at http://localhost:8000.
+
+
+
+
+ Frontend Setup & Run
+Open a new terminal in the root directory.
+
+First time only:
+
+bash
+cd frontend
+npm install
+To run the frontend (every time):
+
+bash
+cd frontend
+npm run dev
+The frontend runs at http://localhost:5173.

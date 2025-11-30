@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+*.egg-info/
+
+# Environment variables
+.env
+
+# Database
+*.sqlite
+*.db
+app.db
+
+# Node
+node_modules/
+dist/
+npm-debug.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated files
+model_list.txt
